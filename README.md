@@ -2,7 +2,7 @@ boleto-bb
 =============
 
 
-Geração de boleto bancário do Banco do Brasil em Node.js. Essa logica foi copiada e adaptada de [node-boleto](https://github.com/pagarme/node-boleto).
+Geração de boleto bancário do Banco do Brasil em Node.js. Essa lógica foi copiada e adaptada de [node-boleto](https://github.com/pagarme/node-boleto).
 
 
 ## Instalação
