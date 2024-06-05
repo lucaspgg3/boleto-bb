@@ -7,7 +7,7 @@ const boletoUtil = require('../utils/boletoUtil')
 
 class Boleto {
   constructor(options) {
-    console.log(options)
+    //console.log(options)
 
     if (!options) {
       // eslint-disable-next-line no-throw-literal
@@ -70,7 +70,7 @@ class Boleto {
     }
 
     // eslint-disable-next-line max-len
-    console.log(renderOptions)
+    //console.log(renderOptions)
     renderOptions.boleto.linha_digitavel_hash = this.hashString(renderOptions.boleto.linha_digitavel).toString();
 
     ejs.renderFile(path.join(__dirname, '/../assets/layout.ejs'), renderOptions, {
